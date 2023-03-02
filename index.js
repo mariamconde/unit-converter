@@ -20,7 +20,7 @@ const gallonToLiter = 3.7854
 convertBtn.addEventListener("click", function () {
     let inputValue = inputEl.value
     lengthEl.textContent = ` ${inputValue} meters = ${Number(inputValue * meterToFeet).toFixed(3)} feet | ${inputValue} feet = ${Number(inputValue / meterToFeet).toFixed(3)} meters`
-    volumeEl.textContent = `${inputValue} liters = ${Number(inputValue * literToGallon).toFixed(3)} gallons | ${inputValue} gallons = ${Number(inputValue  * gallonToLiter).toFixed(3)} liters`
+    volumeEl.textContent = `${inputValue} liters = ${Number(inputValue * literToGallon).toFixed(3)} gallons | ${inputValue} gallons = ${Number(inputValue * gallonToLiter).toFixed(3)} liters`
     massEl.textContent = `${inputValue} kilos = ${Number(inputValue * kilogramToPound).toFixed(3)} pounds | ${inputValue} pounds = ${Number(inputValue / kilogramToPound).toFixed(3)} kilos`
 
 })
