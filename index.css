@@ -17,8 +17,16 @@ body {
 .main{
     background: #f4f4f4;
     padding: 10px;
+    color: #353535;
 }
 
+.main h3 {
+    color: #5A537B;
+}
+
+::placeholder { 
+    color:    #FFFFFF;
+ }
 .section {
     background: white;
     padding: 5px;
